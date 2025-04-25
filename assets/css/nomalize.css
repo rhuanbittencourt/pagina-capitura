@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root{
+    /* Variaveis de cores*/
+
+    --cor-primaria: #49FFBD;
+    --cor-secundaria:#129f91;
+    --cor-fundo:#222222;
+    --cor-branca:#FAFAFA;
+
+    /* Variaveis de Tipografia*/
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+
+}
