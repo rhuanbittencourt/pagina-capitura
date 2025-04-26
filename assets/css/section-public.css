@@ -1,0 +1,217 @@
+.section-public {
+    background-color: var(--cor-fundo);
+    padding: 2rem 3rem;
+    width: 100%;
+}
+.section-public  h2 {
+    font-size: 3.2rem;
+    color: var(--cor-branca);
+    margin: 0 0 2rem 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-public span {
+    color: var(--cor-primaria);
+}
+.section-public .checks{
+    display: flex;
+    flex-direction: column;
+    color: var(--cor-branca);
+    margin: 0 0 2.5rem  0;
+}
+
+.checks div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.checks p {
+    font-size: 1.5rem;
+}
+.button-public {
+    font-size: 1.5rem;
+    border-bottom: 0.2rem solid var(--cor-branca);
+}
+
+
+.section-public  .checks img{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin:0;
+}
+
+.section-public .notifications .img2,.img1{
+    margin: 1rem 0;
+}
+.section-public .notifications .img2 {
+    margin: 0 0 0 5rem;
+    transition-delay: 0.4s"
+}
+
+
+.animar {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease;
+  }
+  
+  .animar.ativo {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   
+    .section-public {
+        background-color: var(--cor-fundo);
+        padding: 2rem 3rem;
+        width: 100%;
+    }
+    .section-public  h2 {
+        font-size: 3.2rem;
+        color: var(--cor-branca);
+        margin: 0 0 2rem 0;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+    }
+    
+    .section-public span {
+        color: var(--cor-primaria);
+    }
+    .section-public .checks{
+        display: flex;
+        flex-direction: column;
+        color: var(--cor-branca);
+        margin: 0 0 2.5rem  0;
+       
+    }
+    
+    .checks div {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    
+    .checks p {
+        font-size: 1.5rem;
+    }
+    
+    
+    
+    .section-public  .checks img{
+        width: 2.4rem;
+        height: 2.4rem;
+        margin:0;
+    }
+
+    .section-public .notifications {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    
+    .section-public .notifications .img2,.img1{
+        margin: 2rem 0;
+    }
+    .section-public .notifications .img2 {
+        margin: 0 0 0 30rem;
+        transition-delay: 0.4s"
+    }
+}
+
+/* ===== Desktop: 1024px ou mais ===== */
+
+@media (min-width: 1024px) {
+    .section-public {
+        background-color: var(--cor-fundo);
+        padding: 2rem 3rem;
+        display: flex;
+        
+        
+        
+        
+    }
+    .section-public  h2 {
+        font-size: 5cqb;
+        color: var(--cor-branca);
+        margin: 0 0 3rem 0;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+    }
+    
+    .section-public span {
+        color: var(--cor-primaria);
+    }
+    .section-public .checks{
+        display: flex;
+        flex-direction: column;
+        color: var(--cor-branca);
+        margin: 0 0 2rem  0;
+        max-width: 50%;
+        
+    }
+
+    .partes {
+        display: flex;
+    }
+    
+    .checks div {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin: 2rem 0;
+    }
+    
+    .checks p {
+        font-size: 2rem;
+    }
+
+    
+    
+    .section-public  .checks img{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin:0;
+    }
+
+    .button-public {
+        font-size: 2rem;
+        font-weight: bold;
+        border-bottom: 0.4rem solid var(--cor-branca);
+        padding: 2rem 0;
+        border-radius: 3rem;
+    }
+
+    .section-public .notifications {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        margin: 2rem 0 0 15rem;
+        
+    }
+    
+    .section-public .notifications .img2,.img1{
+        margin: 1rem 0;
+        width: 30rem;
+    }
+    .section-public .notifications .img2 {
+        margin: 0 0 0 8rem;
+        transition-delay: 0.4s"
+    }
+
+    
+}
+
+
+
+
+  

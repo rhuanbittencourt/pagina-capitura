@@ -61,12 +61,14 @@ iframe {
     width: 100%;
     text-align: center;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 3rem;
     font-size: 2rem;
     font-weight: bold;
     margin: 1rem 0;
+    border-bottom: 3px solid var(--cor-fundo);
 
 }
+
 
 img {
     width: 30rem;
@@ -190,6 +192,7 @@ img {
         font-size: 2rem;
         font-weight: bold;
         margin: 1rem 0;
+        
     
     }
     
